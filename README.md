@@ -21,3 +21,7 @@ Ao terminar de preencher as informações o botão CREATE sera habilitado.
 Pronto ja consegue chamar o secret no seus notbooks 
 
 dbutils.secrets.get(scope="ScopeName", key="NameSecretAzure")
+
+Listar scopes criados no databricks :
+
+dbutils.secrets.listScopes()
