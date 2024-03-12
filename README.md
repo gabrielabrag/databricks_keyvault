@@ -17,12 +17,15 @@ Pronto ja consegue chamar o secret no seus notbooks
 dbutils.secrets.get(scope="ScopeName", key="NameSecretAzure")
 
 #Listar scopes criados no databricks :
+
 dbutils.secrets.listScopes()
 
 #Lista os secrets desse scopo 
+
 dbutils.secrets.list('scopeName')
 
 #Apagar scope 
+
 Até a data atual ainda não conseguimos apagar o scope pelo notbook Databricks, esse scope tem que ser apagado por uma api. 
 
 Requisicao api: 
