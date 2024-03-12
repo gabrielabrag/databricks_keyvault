@@ -30,10 +30,10 @@ Até a data atual ainda não conseguimos apagar o scope pelo notbook Databricks,
 
 Requisicao api: 
 
-request: POST https://{DATABRICKS_HOST}/api/2.0/secrets/scopes/delete
-authorization: Bearer {DATABRICKS_TOKEN}
-params: cluster_id {CLUSTER_ID}
-body: {"scope": "scopoName"}
+    ---request: POST https://{DATABRICKS_HOST}/api/2.0/secrets/scopes/delete
+    ---authorization: Bearer {DATABRICKS_TOKEN}
+    ---params: cluster_id {CLUSTER_ID}
+    ---body: {"scope": "scopoName"}
 
 
 
